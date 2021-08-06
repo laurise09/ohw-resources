@@ -85,16 +85,20 @@ Use neural networks and pytorch to classify images of turtles.
 OBIS record from polygons (e.g. MPA or any polygon) together with satellite data & visualize on a map, and select areas, and upload new species abundance data, and do some statistics correlating with MPA properties.
 
 
-## Determining the degree to which nutrient availability and microbial activity is driven by geologic events
+## Impact of submarine volcanism on ocean habitability: Axial Seamount as a case study
 
-- Project leads: Laura R
-- Presenter:
+- Project leads: Laura Rodriguez
+- Presenter: Kelly Luis and Laura Rodriguez
 - GitHub: [https://github.com/oceanhackweek/ohw21-proj-biological-activity-driven-by-geologic-events](https://github.com/oceanhackweek/ohw21-proj-biological-activity-driven-by-geologic-events)
 
 Project ideas: 
 
-- Use seismic data, elemental data, and phylogenetic analysis/satellite imagery of blooms
-- Could help inform what variables are relevant for monitoring geologic activity over time and elucidating how this impacts habitability --could have applications for ocean world exploration (e.g. Enceladus)
+- Use seismic, geochemical, chlorophyll, and satellite data to deduce the impact of an eruption at Axial Seamount in 2015
+- Geochemical data pulled from Regional Cabled Array (https://dataexplorer.oceanobservatories.org/#ooi/array/RS/subsite/RS03AXPD/node/RS03AXPD-DP/data?sort=end_time_desc)
+- Satellite data pulled from: ERDAP (AVHRR Sea Surface Temperature) and MODIS (Aqua Chlorophyll)
+- Motivation: There is a large amount of oceanographic data that we can use to better understand the impact of geologic activity and the biogeochemistry of the oceans, however, the websites that host such data are often difficult to navigate. Furthermore, pulling all the data from such sites and plotting variables manually is not feasible given how much data is available. 
+- Goals: In this project we wanted to make a user friendly app and jupyter notebooks that could: query data from each server and visualize variables of interest over specific dates
+- Relevance: Exploring the impact of submarine volanic eruptions on local geochemistry and biological activity in the oceans on Earth can help inform what variables are relevant for monitoring geologic activity over time and elucidating how this impacts habitability on other ocean worlds such as Europa and Enceladus.
 
 
 ## Sampling high-resolution model output as if by an in situ platform (ship, glider, mooring, etc.)
